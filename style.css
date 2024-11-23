@@ -2,17 +2,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #333;
+    background: #333;
     color: white;
     padding: 10px 20px;
+    text-align: center;
 }
 
 nav a {
     color: white;
-    margin-right: 15px;
+    margin: 0 15px;
     text-decoration: none;
 }
 
@@ -22,8 +24,50 @@ nav a {
 
 main {
     padding: 20px;
+    text-align: center;
 }
 
 h1 {
     color: #333;
+    margin-bottom: 20px;
+}
+
+/* Section styling for consistency */
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px; /* Adds bubble effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    text-align: left;
+    max-width: 800px;
+    margin: 20px auto; /* Center content */
+}
+
+    .section h2 {
+        margin-top: 0;
+        color: #333;
+    }
+
+    .section p {
+        margin: 10px 0;
+        line-height: 1.6;
+    }
+
+    .section ul {
+        padding-left: 20px;
+    }
+
+        .section ul li {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+
+img.profile-pic {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #333;
 }
